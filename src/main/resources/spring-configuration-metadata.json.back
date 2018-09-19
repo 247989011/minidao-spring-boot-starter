@@ -1,0 +1,40 @@
+{"groups":[
+  {
+    "name": "minidao",
+    "type": "top.pqq.properties.MiniDaoProperties",
+    "sourceType": "top.pqq.properties.MiniDaoProperties"
+  }
+],
+  "properties": [
+    {
+      "name": "minidao.keyType",
+      "type": "java.lang.String",
+      "sourceType": "top.pqq.properties.MiniDaoProperties",
+      "defaultValue": "lower"
+    },{
+      "name": "minidao.formatSql",
+      "type": "java.lang.Boolean",
+      "sourceType": "top.pqq.properties.MiniDaoProperties",
+      "defaultValue": "false"
+    },{
+      "name": "minidao.showSql",
+      "type": "java.lang.Boolean",
+      "sourceType": "top.pqq.properties.MiniDaoProperties",
+      "defaultValue": "false"
+    },{
+      "name": "minidao.dbType",
+      "type": "java.lang.String",
+      "sourceType": "top.pqq.properties.MiniDaoProperties",
+      "defaultValue": "mysql"
+    },{
+      "name": "minidao.basePackage",
+      "type": "java.lang.String",
+      "sourceType": "top.pqq.properties.MiniDaoProperties"
+    },{
+      "name": "minidao.annotation",
+      "type": "java.lang.Class",
+      "sourceType": "top.pqq.properties.MiniDaoProperties",
+      "defaultValue": "org.springframework.stereotype.Repository"
+    }
+  ]
+}
